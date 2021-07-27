@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home_page.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Đặt phòng trực tuyến tại luxstay</title>
+</head>
+
+<body>
+    <div id="nav">
+        <a id="home_page_link" href="https://www.youtube.com/">
+            <div id="logo"></div>
+        </a>
+        <div id="control_home_page">
+            <div id="host" class="chage_text_color"><a class="decoration_none" id="text" href="">Host</a></div>
+            <div id="sign_up" class="chage_text_color"><a class="decoration_none" id="text" href="">Đăng ký</a></div>
+            <div id="login" class="chage_text_color"><a class="decoration_none" id="text" href="">Đăng nhập</a></div>
+        </div>
+    </div>
+    <div id="slideshow" class=" w3-display-container">
+        <img class="mySlides" src="https://beta-api.luxstay.net/api/upload/file?storage=admins/12/qF7ukmI--Rwr2H5LwzVZwcXa.jpg">
+        <img class="mySlides" src="https://beta-api.luxstay.net/api/upload/file?storage=admins/12/LTO3WBl2KWqI5bwJre6PQ7do.jpg">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+            style="width:100%">
+            <div class="w3-left w3-hover-text-khaki " id="miner_button" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki " id="plus_button" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge dots_hover w3-border w3-transparent w3-hover-gray" onclick="currentDiv(1)"></span>
+            <span class="w3-badge dots_hover w3-border w3-transparent w3-hover-gray" onclick="currentDiv(2)"></span>
+        </div>
+    </div>
+</body>
+<script src="home_page.js"></script>
+
+</html>
